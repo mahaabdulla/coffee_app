@@ -1,7 +1,7 @@
 import 'package:coffee_app/core/const/colors.dart';
-import 'package:coffee_app/core/const/png_images.dart';
 import 'package:coffee_app/core/const/text.dart';
-import 'package:coffee_app/feature/pages/home/widgets/custome_blak_container.dart';
+import 'package:coffee_app/feature/pages/home/widgets/custome_horizantil_widget.dart';
+import 'package:coffee_app/feature/pages/home/widgets/custome_search_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -22,7 +22,7 @@ class HomeBody extends StatelessWidget {
           ),
           child: Column(
             children: [
-              CustomeBlakConatiner(),
+              CustomeSearchWidget(),
 
               // Padding(
               //   padding: EdgeInsets.symmetric(horizontal: 24.w),
@@ -49,11 +49,28 @@ class HomeBody extends StatelessWidget {
                   decoration: BoxDecoration(color: whiteColor),
                   child: Column(
                     children: [
+                      SizedBox(height: 120.h),
+                      CustomeHorizantlScroolWidget(
+                        items: const [
+                          'All Coffee',
+                          'Machiato',
+                          'Latte',
+                          'Americano',
+                        ],
+                      ),
+                      SizedBox(height: 16.h),
                       Expanded(
-                        child: ListView.builder(
-                          itemCount: 4,
+                        child: GridView.builder(
+                          gridDelegate:
+                              SliverGridDelegateWithFixedCrossAxisCount(
+                                crossAxisCount: 2,
+                                crossAxisSpacing: 16.w, // Add spacing
+                                mainAxisSpacing: 16.h, // Add spacing
+                                childAspectRatio: 0.8,
+                              ),
+                          itemCount: 6, // Example item count
                           itemBuilder: (ctx, index) {
-                            return Card(child: Text('yy'));
+                            return Card(child: Text('Coffee Item'));
                           },
                         ),
                       ),

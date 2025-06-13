@@ -18,6 +18,13 @@ abstract class TextStyles {
     fontWeight: FontWeights.bold,
     color: blacTextColor,
   );
+
+  static const TextStyle headLine24 = TextStyle(
+    fontSize: 24,
+    fontWeight: FontWeights.bold,
+    color: blacTextColor,
+  );
+
   static const TextStyle headLine18 = TextStyle(
     fontSize: 18,
     fontWeight: FontWeights.light,

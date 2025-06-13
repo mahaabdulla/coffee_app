@@ -9,7 +9,14 @@ class CustomeSearchWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SizedBox(
+    return Container(
+      decoration: const BoxDecoration(
+        gradient: LinearGradient(
+          begin: Alignment.centerLeft,
+          end: Alignment.centerRight,
+          colors: [Color(0xff313131), Color(0xff111111)],
+        ),
+      ),
       width: 375.w,
       height: 280.h,
       child: Padding(

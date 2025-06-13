@@ -11,38 +11,41 @@ class DelivryAddressWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Text(
-          'Delivery Address',
-          style: TextStyles.headLine16.copyWith(
-            color: darkGreyTextColor,
-            fontWeight: FontWeight.bold,
+    return Padding(
+      padding: EdgeInsets.symmetric(horizontal: 24.w),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Text(
+            'Delivery Address',
+            style: TextStyles.headLine16.copyWith(
+              color: darkGreyTextColor,
+              fontWeight: FontWeight.bold,
+            ),
           ),
-        ),
-        SizedBox(height: 16.h),
-        Text(
-          'Jl. Kpg Sutoyo',
-          style: TextStyles.headLine14.copyWith(
-            color: darkGreyTextColor,
-            fontWeight: FontWeight.bold,
+          SizedBox(height: 16.h),
+          Text(
+            'Jl. Kpg Sutoyo',
+            style: TextStyles.headLine14.copyWith(
+              color: darkGreyTextColor,
+              fontWeight: FontWeight.bold,
+            ),
           ),
-        ),
-        SizedBox(height: 4.h),
-        Text(
-          'Kpg. Sutoyo No. 620, Bilzen, Tanjungbalai.',
-          style: TextStyles.headLine12.copyWith(color: Color(0XFFA2A2A2)),
-        ),
-        SizedBox(height: 16.h),
-        Row(
-          children: [
-            CustomeInfoWidget(text: 'Edit Address', imagePath: penIconSvg),
-            SizedBox(width: 8.w),
-            CustomeInfoWidget(text: 'Add Note', imagePath: documentIconSvg),
-          ],
-        ),
-      ],
+          SizedBox(height: 4.h),
+          Text(
+            'Kpg. Sutoyo No. 620, Bilzen, Tanjungbalai.',
+            style: TextStyles.headLine12.copyWith(color: Color(0XFFA2A2A2)),
+          ),
+          SizedBox(height: 16.h),
+          Row(
+            children: [
+              CustomeInfoWidget(text: 'Edit Address', imagePath: penIconSvg),
+              SizedBox(width: 8.w),
+              CustomeInfoWidget(text: 'Add Note', imagePath: documentIconSvg),
+            ],
+          ),
+        ],
+      ),
     );
   }
 }

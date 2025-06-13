@@ -12,3 +12,10 @@ A beautifully designed coffee shop UI app built with Flutter, focusing on clean 
 - Embedded Google Maps support via [`google_maps_flutter`](https://pub.dev/packages/google_maps_flutter).
 
 ## 📁 Project Structure
+lib/
+├── core/ # App constants (colors, images, etc.)
+├── feature/ # Main feature screens and components
+│ └── home/ # Home screen and its widgets
+│ └── details/ # Coffee detail screen and widgets
+├── widgets/ # Reusable shared UI components
+└── main.dart # App entry point

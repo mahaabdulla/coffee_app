@@ -29,22 +29,22 @@ abstract class TextStyles {
     fontWeight: FontWeights.light,
     color: Colors.white,
   );
-  static const TextStyle headLine16Blca = TextStyle(
+  static const TextStyle headLine16Blod = TextStyle(
     // fontFamily: appFont,
     fontSize: 16,
-    fontWeight: FontWeights.light,
+    fontWeight: FontWeights.bold,
     color: Colors.white,
   );
   static const TextStyle headLine14 = TextStyle(
     // fontFamily: appFont,
     fontSize: 14,
-    fontWeight: FontWeights.bold,
+
     color: Colors.white,
   );
   static const TextStyle headLine12 = TextStyle(
     // fontFamily: appFont,
     fontSize: 14,
-    fontWeight: FontWeights.light,
+    fontWeight: FontWeights.regular,
     color: Colors.white,
   );
 }

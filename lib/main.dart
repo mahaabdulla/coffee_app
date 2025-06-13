@@ -1,5 +1,5 @@
-import 'package:coffee_app/core/route/route.dart';
-import 'package:coffee_app/core/route/route_name.dart';
+import 'package:coffee_app/core/routes/route.dart';
+import 'package:coffee_app/core/routes/route_name.dart';
 import 'package:coffee_app/feature/pages/home/home_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

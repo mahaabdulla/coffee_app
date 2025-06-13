@@ -3,6 +3,7 @@ import 'package:coffee_app/core/const/png_images.dart';
 import 'package:coffee_app/core/const/text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_svg/flutter_svg.dart';
 
 class CustomeSearchWidget extends StatelessWidget {
   const CustomeSearchWidget({super.key});
@@ -14,7 +15,7 @@ class CustomeSearchWidget extends StatelessWidget {
         gradient: LinearGradient(
           begin: Alignment.centerLeft,
           end: Alignment.centerRight,
-          colors: [Color(0xff313131), Color(0xff111111)],
+          colors: [greyColor, blckColor],
         ),
       ),
       width: 375.w,
@@ -32,7 +33,7 @@ class CustomeSearchWidget extends StatelessWidget {
                     Text(
                       'Location',
                       style: TextStyles.headLine12.copyWith(
-                        color: Colors.white.withOpacity(0.6),
+                        color: whiteOpacity60Color,
                       ),
                     ),
                     SizedBox(height: 4.h),
@@ -60,12 +61,12 @@ class CustomeSearchWidget extends StatelessWidget {
                       fillColor: TextFieldColor,
                       prefixIcon: Icon(
                         Icons.search,
-                        color: Colors.white.withOpacity(0.6),
+                        color: whiteOpacity60Color,
                         size: 20.sp,
                       ),
                       hintText: 'Search coffee',
                       hintStyle: TextStyles.headLine14.copyWith(
-                        color: Colors.white.withOpacity(0.6),
+                        color: whiteOpacity60Color,
                       ),
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(16.r),

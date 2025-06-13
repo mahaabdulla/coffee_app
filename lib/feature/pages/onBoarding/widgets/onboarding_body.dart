@@ -2,7 +2,7 @@ import 'package:coffee_app/core/const/colors.dart';
 import 'package:coffee_app/core/const/fontweight.dart';
 import 'package:coffee_app/core/const/png_images.dart';
 import 'package:coffee_app/core/const/text.dart';
-import 'package:coffee_app/core/route/route_name.dart';
+import 'package:coffee_app/core/routes/route_name.dart';
 import 'package:coffee_app/feature/pages/onBoarding/widgets/brown_buttom.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';

@@ -13,7 +13,7 @@ class ImageDetails extends StatelessWidget {
       child: ClipRRect(
         borderRadius: BorderRadius.circular(16.r),
         child: Image.asset(
-          caputionuImage,
+          bigCoffeeImage,
           fit: BoxFit.contain,
           filterQuality: FilterQuality.high,
         ),

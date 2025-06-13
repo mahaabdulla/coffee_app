@@ -14,3 +14,6 @@ const String coffee4Image = '${root}coffee4.png';
 const String bannerImage = '${root}Banner.png';
 const String arrowDownImage = '${root}Arrow - Down 2.png';
 const String starIcon = '${root}Star.png';
+
+// big coffee images
+const String bigCoffeeImage = 'assets/png_images/Image(2).png';

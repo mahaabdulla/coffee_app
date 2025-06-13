@@ -10,3 +10,5 @@ A beautifully designed coffee shop UI app built with Flutter, focusing on clean 
 - Clean and reusable code components.
 - Integration of [`flutter_hooks`](https://pub.dev/packages/flutter_hooks) for improved state management.
 - Embedded Google Maps support via [`google_maps_flutter`](https://pub.dev/packages/google_maps_flutter).
+
+## 📁 Project Structure

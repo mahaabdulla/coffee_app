@@ -1,3 +1,4 @@
+import 'package:coffee_app/feature/pages/order/widget/order_body.dart';
 import 'package:flutter/material.dart';
 
 class OrderPage extends StatelessWidget {
@@ -5,6 +6,6 @@ class OrderPage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(body: Center(child: Text('yyy')));
+    return OrderBody();
   }
 }

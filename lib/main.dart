@@ -20,7 +20,7 @@ class MyApp extends StatelessWidget {
       builder: (context, child) {
         return MaterialApp(
           onGenerateRoute: AppRoute.generatedRoute,
-          initialRoute: ONBOARDING,
+          initialRoute: HOME,
           debugShowCheckedModeBanner: false,
           // home: const ONB(),
         );

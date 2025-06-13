@@ -1,3 +1,8 @@
+import 'package:coffee_app/core/const/colors.dart';
+import 'package:coffee_app/core/const/png_images.dart';
+import 'package:coffee_app/core/const/text.dart';
+import 'package:coffee_app/feature/pages/details/widgets/custome_divider_widget.dart';
+import 'package:coffee_app/feature/pages/order/widget/add_coffee_card.dart';
 import 'package:coffee_app/feature/pages/order/widget/delivre_container.dart';
 import 'package:coffee_app/feature/pages/order/widget/delivry_address_widget.dart';
 import 'package:coffee_app/feature/pages/order/widget/navbar_widget.dart';
@@ -20,6 +25,11 @@ class OrderBody extends StatelessWidget {
               DelivireContainer(),
               SizedBox(height: 24.h),
               DelivryAddressWidget(),
+
+              SizedBox(height: 16.h),
+              GeryDivider(),
+              SizedBox(height: 16.h),
+              AddCoffeeCard(),
             ],
           ),
         ),

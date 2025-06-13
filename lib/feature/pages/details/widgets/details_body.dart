@@ -1,5 +1,6 @@
 import 'package:coffee_app/core/const/colors.dart';
 import 'package:coffee_app/core/const/text.dart';
+import 'package:coffee_app/feature/pages/details/widgets/gery_divider.dart';
 
 import 'package:coffee_app/feature/pages/details/widgets/component_descrption.dart';
 import 'package:coffee_app/feature/pages/details/widgets/cooffee_descrption_widgets.dart';
@@ -31,7 +32,7 @@ class DetailsBody extends StatelessWidget {
             SizedBox(height: 16.h),
             CoffeeDescryptionWidget(),
             SizedBox(height: 16.h),
-            // GeryDivider(),
+            GeryDivider(),
             SizedBox(height: 16.h),
             ComponenetDescrption(),
             SizedBox(height: 16.h),

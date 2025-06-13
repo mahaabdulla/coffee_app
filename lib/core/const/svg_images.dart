@@ -9,3 +9,5 @@ const String coffeSvg = '${root}2.svg';
 const String milkIconSvg = '${root}milkIconSvg.svg';
 const String coffeeIconSvg = '${root}coffeeIconSvg.svg';
 const String delevryIconSvg = '${root}delvrtIconSvg.svg';
+const String penIconSvg = '${root}Document.svg';
+const String documentIconSvg = '${root}Edit Square.svg';

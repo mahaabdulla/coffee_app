@@ -1,6 +1,5 @@
-import 'package:coffee_app/core/const/colors.dart';
-import 'package:coffee_app/core/const/text.dart';
 import 'package:coffee_app/feature/pages/order/widget/delivre_container.dart';
+import 'package:coffee_app/feature/pages/order/widget/delivry_address_widget.dart';
 import 'package:coffee_app/feature/pages/order/widget/navbar_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -19,6 +18,8 @@ class OrderBody extends StatelessWidget {
               NavbarWidget(),
               SizedBox(height: 40.h),
               DelivireContainer(),
+              SizedBox(height: 24.h),
+              DelivryAddressWidget(),
             ],
           ),
         ),

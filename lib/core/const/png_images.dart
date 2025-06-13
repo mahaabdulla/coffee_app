@@ -1,0 +1,12 @@
+const String root = 'assets/png_images/';
+const String profileImage = 'profile.png';
+const String phoneleImage = 'phone_icon.png';
+const String milkImage = 'milk_icon.png';
+const String delveryImage = 'delevry_icon.png';
+const String latteImage = 'latte.png';
+const String onboardingImage = 'Image Onboarding.png';
+const String filterImage = 'filter_icon.png';
+const String descountImage = 'Discount.png';
+const String coffeeImage = 'coffee_icon.png';
+const String caputionuImage = 'caputionu.png';
+const String bannerImage = 'Banner.png';

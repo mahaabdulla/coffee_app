@@ -38,8 +38,6 @@ class ComponenetDescrption extends StatelessWidget {
             ],
           ),
         ),
-
-        // SizedBox(height: 4.h),
       ],
     );
   }

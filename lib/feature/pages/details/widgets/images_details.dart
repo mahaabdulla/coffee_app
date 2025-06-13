@@ -14,8 +14,8 @@ class ImageDetails extends StatelessWidget {
         borderRadius: BorderRadius.circular(16.r),
         child: Image.asset(
           caputionuImage,
-          fit: BoxFit.cover,
-          //filterQuality: FilterQuality.high,
+          fit: BoxFit.contain,
+          filterQuality: FilterQuality.high,
         ),
       ),
     );

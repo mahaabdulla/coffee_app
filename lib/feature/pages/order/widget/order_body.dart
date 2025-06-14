@@ -14,7 +14,6 @@ import 'package:coffee_app/feature/pages/order/widget/order_buttom_bar.dart';
 import 'package:coffee_app/feature/pages/order/widget/payment_wigdet.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 
 class OrderBody extends StatelessWidget {
   const OrderBody({super.key});

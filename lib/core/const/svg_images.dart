@@ -15,3 +15,4 @@ const String discountIconSvg = '${root}Discount.svg';
 const String righttIconSvg = '${root}Arrow - Right 2.svg';
 const String arrowDownIconSvg = '${root}Arrow - Down 2.svg';
 const String walletIconSvg = '${root}Wallet.svg';
+const String gpsIconSvg = '${root}gps.svg';

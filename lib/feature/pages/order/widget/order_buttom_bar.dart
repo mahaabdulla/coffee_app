@@ -1,6 +1,7 @@
 import 'package:coffee_app/core/const/colors.dart';
 import 'package:coffee_app/core/const/svg_images.dart';
 import 'package:coffee_app/core/const/text.dart';
+import 'package:coffee_app/core/routes/route_name.dart';
 import 'package:coffee_app/feature/pages/onBoarding/widgets/brown_buttom.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -51,7 +52,14 @@ class OrderButtomBar extends StatelessWidget {
           SizedBox(height: 16),
           Row(
             children: [
-              BrownButton(text: 'Order', onTap: () {}, withl: 327, height: 56),
+              BrownButton(
+                text: 'Order',
+                onTap: () {
+                  Navigator.pushNamed(context, MAP);
+                },
+                withl: 327,
+                height: 56,
+              ),
             ],
           ),
         ],
